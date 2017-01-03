@@ -17,6 +17,8 @@
 }
 #header p {
 	font-family: "Nunito", sans-serif;
+	font-style: italic;
+	text-indent: 180px;
 }
 #main {
 	font-family: "Nunito", sans-serif;
@@ -116,9 +118,22 @@
 }
 @media screen and (max-width: 780px){
 	#header h1 {
-		font-size: 2em;
+		font-size: 5em;
+		text-shadow: 3px 3px grey;
 	}
+	#header p {
+		font-size: 0.8em;
+		text-indent: 70px;
+	}	
 	.portfolio-desc {
-	padding: 20px;
+		padding: 20px;
+	}
 }
+@media screen and (max-width: 1024px) and (orientation: landscape){
+	#header h1 {
+		font-size: 6em;
+	}
+	.top {
+		height: 720px;
+	}
 }
