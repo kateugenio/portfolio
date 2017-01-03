@@ -1,0 +1,124 @@
+#header {
+	height: 450px;
+	text-align: center;
+	background-color: #b3c2bf;
+}
+#header h1 {
+	font-size: 6em;
+	font-family: Lobster;
+	/*color: #e9ece5;*/
+	color: red;
+	text-shadow: 4px 4px grey;
+	letter-spacing: 5px;
+	margin-top: 80px;
+}
+#header img {
+	margin-top: 130px;
+}
+#header p {
+	font-family: "Nunito", sans-serif;
+}
+#main {
+	font-family: "Nunito", sans-serif;
+}
+.top {
+	height: 550px;
+	display: table;
+}
+.bottom {
+	height: 100%;
+	display: table;
+	padding: 50px;
+}
+#about-me, #toolbox, #connect, #myPortfolio {
+	background-color: #3b3a36;
+	border: 1px dashed white;
+}
+.top p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10px;
+}
+.bottom p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 3em;
+}
+#main {
+	color: #c0dfd9;
+}
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 6px solid white;
+}
+.circular--landscape img {
+  width: auto;
+  height: 100%;
+}
+.aboutToggle, .toolboxToggle, .connectToggle, .portfolioToggle {
+	/*cursor: pointer;*/
+}
+.portfolio-back {
+	text-align: center;
+	padding-top: 50px;
+}
+.portfolio-desc {
+	padding: 60px;
+}
+.portfolio-desc p {
+	font-size: 1em;
+	display: block;
+	text-align: center;
+}
+.portfolio-desc h3 {
+	font-size: 2em;
+	display: block;
+	text-align: center;
+}
+.portfolio-desc img {
+	margin-right: auto;
+	margin-left: auto;
+}
+.portfolio-label {
+	font-size: 1em;
+}
+.frontside {
+	font-size: 3em;
+}
+.backside {
+	font-size: 1.1em;
+/*	letter-spacing: 3px;
+	word-spacing: 6px;*/
+	line-height: 30px;
+}
+.connectToggle a {
+	display: block;
+	margin: 15px;
+}
+.plussign {
+	cursor: pointer;
+}
+.backarrow {
+	display: block;
+	text-align: center;
+	cursor: pointer;
+}
+#footer {
+	text-align: center;
+	padding: 50px;
+}
+@media screen and (max-width: 780px){
+	#header h1 {
+		font-size: 2em;
+	}
+	.portfolio-desc {
+	padding: 20px;
+}
+}
