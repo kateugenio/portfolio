@@ -124,7 +124,10 @@
 	#header p {
 		font-size: 0.8em;
 		text-indent: 70px;
-	}	
+	}
+	#header img {
+		margin-top: 80px;
+	}
 	.portfolio-desc {
 		padding: 20px;
 	}
