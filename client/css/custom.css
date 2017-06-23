@@ -8,6 +8,9 @@ html {
 nav, .page-footer {
     background-color: #607d8b;
 }
+.name-intro {
+	color: #F19F4D;
+}
 .card {
     margin-bottom: 70px;
 }
