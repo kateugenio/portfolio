@@ -1,226 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Katherine Nguyen | Web Developer</title>
-
-  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'  type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'  type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
-
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  
-  <!-- jQuery -->
-  <script src="jquery/dist/jquery.min.js"></script>
-  
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="bootstrap/dist/js/bootstrap.min.js"></script>
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/hover.css">
+  <title>Katherine Eugenio | Web Developer</title>
+  <title></title>
+  <!-- Compiled and minified CSS -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css"> -->
+  <link rel="stylesheet" href="materialize/dist/css/materialize.min.css">
   <link rel="stylesheet" href="css/custom.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <script src="jquery/dist/jquery.min.js"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="materialize/dist/js/materialize.min.js"></script>
 </head>
+
 <body>
-  <div class="container-fluid">
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo right"><span id="initials">KE</span></a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#technical">Technical Toolbox</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
 
-
-    <div id="mainheader">
-      <div class="row" id="header">
-        <div class="col-md-12 col-xs-12 col-sm-12">
-          <h1>Katherine Nguyen</h1>
-          <p>"Luck is what happens when preparation meets opportunity"</p>
-          <img class="circular--landscape" src="images/me4.jpg" alt="Photo of Katherine Nguyen">
-        </div>
+        <ul class="side-nav" id="mobile-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#technical">Technical Toolbox</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
       </div>
-    </div>
+    </nav>
+  </div>
 
-    <div id="main">
-      <div class="row" id="about">
-        <div class="col-md-4 col-sm-12 col-xs-12 top" id="about-me">
-          <p class="aboutToggle hvr-pulse frontside">about me<span><img class="plussign" src="images/plussign2.png"></span></p>
-          <p class="aboutToggle backside" style="display: none">
-            A Full-stack web developer, motivated and passionate about building dynamic and beautifully designed web apps. Also a seasoned Project Manager and Product Owner for software development projects, mostly web applications and implementing Saas solutions in the financial/banking/wealth management industry. Certified as a Scrum Product Owner and Scrum Master through the Scrum Alliance. Continually seeking for opportunities as a web developer for innovative companies or freelance work. On my spare time, I’m building my own apps/projects, learning different web technologies, then obsessing over music, DJing, and residential real estate.
-            <img class="backarrow" src="images/backarrow.png" alt="Back arrow">
-          </p>
-        </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 top" id="toolbox">
-          <p class="toolboxToggle hvr-pulse frontside">technical toolbox<span><img class="plussign" src="images/plussign2.png"></span></p>
-          <p class="toolboxToggle backside" style="display: none">
-            <span style="font-weight: bold; color: #e9ece5">Front-End: </span>
-              <span class="label label-warning">HTML5</span> 
-              <span class="label label-warning">CSS3</span>
-              <span class="label label-warning">jQuery</span>
-              <span class="label label-warning">Bootstrap</span>
-              <span class="label label-warning">jQuery UI</span>
-              <span class="label label-warning">AngularJS</span>
-              <span class="label label-warning">AJAX</span>
-              <span class="label label-warning">JSON</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Languages: </span>
-              <span class="label label-warning">JavaScript</span>
-              <span class="label label-warning">Python</span>
-              <span class="label label-warning">SQL/MySQL</span>
-              <span class="label label-warning">Ruby</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Databases/ORM: </span>
-              <span class="label label-warning">SQL(MySQL, SQLite)</span> 
-              <span class="label label-warning">NoSQL (MongoDB)</span>
-              <span class="label label-warning">MongooseJS</span>
-              <span class="label label-warning">Django ORM</span>
-              <span class="label label-warning">ActiveRecord</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Version Control: </span>
-              <span class="label label-warning">Git</span>
-              <span class="label label-warning">Github</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Servers: </span>
-              <span class="label label-warning">Nginx</span>
-              <span class="label label-warning">Node.js</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Frameworks: </span>
-              <span class="label label-warning">Django</span>
-              <span class="label label-warning">Ruby on Rails</span>
-              <span class="label label-warning">Angular</span>
-              <span class="label label-warning">Flask</span>
-              <span class="label label-warning">Express/Socket.io</span>
-              <span class="label label-warning">Bootstrap</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Methodologies: </span>
-              <span class="label label-warning">MVC</span>
-              <span class="label label-warning">REST</span>
-              <span class="label label-warning">OOP</span>
-              <span class="label label-warning">Agile Scrum</span>
-              <br>
-              <span style="font-weight: bold; color: #e9ece5">Dev Ops: </span>
-              <span class="label label-warning">Heroku</span>
-              <span class="label label-warning">AWS (Amazon EC2)</span>
-              <img class="backarrow" src="images/backarrow.png" alt="Back arrow">
-          </p>
-        </div>
-        <div class="col-md-4 col-sm-12 col-xs-12 top" id="connect">
-          <p class="connectToggle hvr-pulse frontside">connect with me<span><img class="plussign" src="images/plussign2.png"></span></p>
-          <p class="connectToggle backside" style="display: none">
-            <a href="https://github.com/kateugenio" target="_blank"><img src="images/GitHub_Logo.png" alt="GitHub Logo"></a>
-            <a href="https://www.linkedin.com/in/katherineeugenio" target="_blank"><img src="images/Logo-2CRev-54px-R.png" target="_blank" alt="LinkedIn Logo"></a>
-            <a href="mailto:khnguyen86@live.com"><span class="label label-primary">Email: khnguyen86@live.com</span></a>
-            <img class="backarrow" src="images/backarrow.png" alt="Back arrow">
-          </p>
-        </div>
-      </div>
-      <div class="row" id="portfolio">
-        <div class="col-md-12 col-xs-12 bottom" id="myPortfolio">
-          <p class="portfolioToggle hvr-pulse frontside">portfolio<span><img class="plussign" src="images/plussign2.png"></span></p>
-          <div class="row portfolioToggle backside portfolio-back" style="display: none">
-            <div class="col-md-6 col-xs-12 portfolio-desc">
-              <h2>RECIPPIO</h2>
-              <img class="img-responsive" src="images/recippio_screenshot.png">
-              <p>For those who can't figure out what to eat but have lots of ingredients in their kitchen. Add ingredients from your kitchen and start searching through hundreds of recipes based on your ingredients.</p>
-              <p><a href="https://recippio.herokuapp.com" target="_blank">Visit</a></p>
-              <p>Built with:</p>
-              <p>
-                <span class="label label-warning portfolio-label">MongodDB</span>
-                <span class="label label-warning portfolio-label">ExpressJS</span>
-                <span class="label label-warning portfolio-label">AngularJS</span>
-                <span class="label label-warning portfolio-label">Nodejs</span>
-                <br>
-                <span class="label label-warning portfolio-label">Bootstrap</span>
-                <span class="label label-warning portfolio-label">jQuery</span>
-                <span class="label label-warning portfolio-label">Bcrypt</span>
-                <br>
-                <span class="label label-warning portfolio-label">Mongoose.js</span>
-                <span class="label label-warning portfolio-label">Express-Session</span>
-                <span class="label label-warning portfolio-label">AJAX</span>
-              </p>
-            </div>
-            <div class="col-md-6 col-xs-12 portfolio-desc">
-              <h2>SCRUMy</h2>
-              <img class="img-responsive" src="images/scrumy.png">
-              <p>Beautifully creates a Sprint Review (Demo) Agenda for Stakeholders. The Agenda handout displays all sprint work (user stories or defects), sprint metrics, team information, and an iteration cumulative flow diagram. The app consumes the Rally Web Services API.</p>
-              <p>Built with:</p>
-              <p>
-                <span class="label label-warning portfolio-label">Ruby on Rails</span>
-                <span class="label label-warning portfolio-label">SQLite3</span>
-                <span class="label label-warning portfolio-label">Bootstrap</span>
-                <span class="label label-warning portfolio-label">WickedPDF</span>
-                <span class="label label-warning portfolio-label">Rally Web Services API</span>
-                <span class="label label-warning portfolio-label">jQuery</span>
-                <span class="label label-warning portfolio-label">HTML5</span>
-                <span class="label label-warning portfolio-label">CSS3</span>
-                <span class="label label-warning portfolio-label">Slim</span>
-                <br>
-              </p>
-            </div>
-          </div>
-          <div class="row portfolioToggle backside portfolio-back" style="display: none">
-            <div class="col-md-6 col-xs-12 portfolio-desc">
-              <h2>MINI-MEAN STORE</h2>
-              <img class="img-responsive" src="images/minimeanstore_screenshot.png" alt="Mini Mean Store screenshot">
-              <p>A school project full-stack application built using MEAN technology. This is a web app to create products, customers, and orders, with full CRUD operations using MongoDB/mongoose.js and RESTful routing.</p>
-              <p><a href="https://minimeanstore.herokuapp.com" target="_blank">Visit</a></p>
-              <p>Built with:</p>
-              <p>
-                <span class="label label-warning portfolio-label">MongodDB</span>
-                <span class="label label-warning portfolio-label">ExpressJS</span>
-                <span class="label label-warning portfolio-label">AngularJS</span>
-                <span class="label label-warning portfolio-label">Nodejs</span>
-                <br>
-                <span class="label label-warning portfolio-label">Bootstrap</span>
-                <span class="label label-warning portfolio-label">jQuery</span>
-                <span class="label label-warning portfolio-label">Mongoose.js</span>
-                <span class="label label-warning portfolio-label">AJAX</span>
-              </p>
-            </div>
-            <div class="col-md-6 col-xs-12 portfolio-desc">
-              <h2>CODING DOJO FRIENDS</h2>
-              <a href="images/friendsapp_screenshot1.png" target="_blank"><img style="margin-bottom: 5px" class="img-responsive" src="images/friendsapp_screenshot1.png" alt="Django Friends screenshot 1"></a><a href="images/friendsapp_screenshot2.png" target="_blank"><img class="img-responsive" src="images/friendsapp_screenshot2.png" alt="Django Friends screenshot 2"></a>
-              <p>A school project full-stack application built using Python/Django. This is a basic app that demonstrates full CRUD operations, login and registration using Bcrypt, RESTful routing, and MySQL database. In addition, this was an application that was built and deployed to Amazon Web Services in under 4.5 hours, which earned me a "Python Black Belt" at Coding Dojo.</p>
-              <p>Built with:</p>
-              <p>
-                <span class="label label-warning portfolio-label">Django</span>
-                <span class="label label-warning portfolio-label">MySQL</span>
-                <span class="label label-warning portfolio-label">Bcrypt</span>
-                <br>
-                <span class="label label-warning portfolio-label">SQLite</span>
-                <span class="label label-warning portfolio-label">Bootstrap</span>
-                <span class="label label-warning portfolio-label">jQuery UI</span>
-
-              </p>
-            </div>
-          </div>
-          <img class="portfolioToggle backside portfolio-back" src="images/backarrow.png" style="display: none; cursor: pointer">
-        </div>
-      </div>
-
-      <div class="row" id="footer">
-        <div class="col-md-12 col-xs-12">
-          <p>Copyright &copy; 2017 &middot; All Rights Reserved &middot;</p>
-          <p><a href="mailto:khnguyen86@live.com">Contact Katherine Nguyen</a></p>
-        </div>
-      </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/pexels-photo-265655_lg.jpeg" class="responsive-img" alt="parallax image 1"></div>
+  </div>
+  <div class="section white scrollspy" id="about">
+    <div class="row container">
+      <h2 class="header">About Me<span style="float: right"><img src="images/ke.png" class="circle" alt="image of Katherine Eugenio"></span></h2>
+      <p class="grey-text text-darken-3 lighten-3">
+        A full-stack web developer, motivated and passionate about building dynamic and beautifully designed web apps. I have a love for web technologies, constantly seeking to learn the latest yet continually improve my skills. With over 6 years as an Agile Product Owner in a professinal environment, leading efforts in bringing product visions to life, as well being a web developer, I am a well-rounded individual in the software development lifecycle, able to contribute and manage not only to your product requirements, but also to implement the code and design. Continually seeking for opportunities as a web developer for innovative companies or freelance work. On my spare time, I'm building my own apps/projects, learning different web technologies, then obsessing over music, DJing, and residential real estate.
+      </p>
     </div>
   </div>
-    <script>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/pexels-photo-370470.jpeg" class="responsive-img" alt="parallax image 2"></div>
+  </div>
+
+
+  <div class="section white scrollspy" id="technical">
+    <div class="row container">
+      <h2 class="header">Technical Toolbox</h2>
+      <p class="grey-text text-darken-3 lighten-3">
+        <h5>Frontend</h5>
+          <div class="chip">HTML5</div>
+          <div class="chip">CSS3</div>
+          <div class="chip">JavaScript</div>
+          <div class="chip">jQuery</div>
+          <div class="chip">Bootstrap</div>
+          <div class="chip">AngularJS</div>
+          <div class="chip">AJAX</div>
+        <h5>Languages</h5>
+          <div class="chip">JavaScript</div>
+          <div class="chip">Ruby</div>
+          <div class="chip">Python</div>
+          <div class="chip">SQL</div>
+        <h5>Databases/ORM</h5>
+          <div class="chip">MySQL</div>
+          <div class="chip">ActiveRecord</div>
+          <div class="chip">MongoDB</div>
+          <div class="chip">Mongoose</div>
+          <div class="chip">Django ORM</div>
+        <h5>Frameworks</h5>
+          <div class="chip">Ruby on Rails</div>
+          <div class="chip">Django</div>
+          <div class="chip">Angular 1</div>
+          <div class="chip">Express/Socket.io</div>
+        <h5>Servers &amp; OS</h5>
+          <div class="chip">Node.js</div>
+          <div class="chip">Linux/Debian/Ubuntu</div>
+          <div class="chip">Mac</div>
+        <h5>Version Control</h5>
+          <div class="chip">Git</div>
+          <div class="chip">Github</div>
+        <h5>Methodologies</h5>
+          <div class="chip">MVC</div>
+          <div class="chip">OOP</div>
+          <div class="chip">REST</div>
+          <div class="chip">Agile Scrum</div>
+      </p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/pexels-photo-164828.jpeg" class="responsive-img" alt="parallax image 3"></div>
+  </div>
+
+
+  <div class="section white scrollspy" id="connect">
+    <div class="row container">
+      <h2 class="header">Connect With Me</h2>
+      <div class="row text_center">
+          <div class="col m4">
+            <a href="https://github.com/kateugenio" target="_blank"><img src="images/GitHub_Logo.png" class="responsive-img" alt="Github Logo"></a>
+          </div>
+          <div class="col m4">
+            <a href="https://www.linkedin.com/in/katherineeugenio/" target="_blank"><img src="images/LinkedIn_Logo.png" class="responsive-img" alt="LinkedIn Logo"></a>
+          </div>
+          <div class="col m4">
+            <a href="mailto:kateugenio425@gmail.com"><img src="images/gmail_logo.png" class="images/responsive-img" alt="Gmail Logo"></a>
+          </div>
+        </div>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/pexels-photo-316465.jpeg" class="responsive-img" alt="parallax image 4"></div>
+  </div>
+
+
+
+  <div class="section white scrollspy" id="portfolio">
+    <div class="row container">
+      <h2 class="header">Portfolio/Projects</h2>
+
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="images/recippio_main.png" alt="Recippio screenshot">
+              <span class="card-title">Recippio</span>
+            </div>
+            <div class="card-content white-text">
+              <p>For those who can't figure out what to eat but have lots of ingredients in their kitchen. Add ingredients from your kitchen and start searching through hundreds of recipes based on your ingredients.</p>
+              <h6>Built With:</h6>
+              <div class="chip">MongoDB</div>
+              <div class="chip">ExpressJS</div>
+              <div class="chip">AngularJS</div>
+              <div class="chip">Node.js</div>
+              <div class="chip">Bootstrap</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Bcrypt</div>
+              <div class="chip">Mongoose.js</div>
+              <div class="chip">Express-Session</div>
+              <div class="chip">AJAX</div>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/kateugenio/recippio" target="_blank">Github</a>
+              <a href="https://recippio.herokuapp.com" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="images/scrumy1.png" alt="Scrumy App Screenshot">
+              <span class="card-title">SCRUMy</span>
+            </div>
+            <div class="card-content white-text">
+              <p>An internal web application for First American Trust App Dev/Project Management team for all Scrum related processes. The app can create beautiful Sprint Demo PDF handouts,
+              assist Product Owners/Project Managers in prioritizing their backlogs into a Team backlog, manage team members, and generate Scrum Retrospective meeting agendas. This app consumes
+              the Rally Web Services API/Ruby Toolkit.</p>
+              </p>
+              <h6>Built With:</h6>
+              <div class="chip">Ruby on Rails</div>
+              <div class="chip">ActiveRecord</div>
+              <div class="chip">MaterializeCSS</div>
+              <div class="chip">WickedPDF</div>
+              <div class="chip">Rally WSAPI</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Slim</div>
+            
+              <div class="row scrumy_imgs">
+                <div class="col s6">
+                  <img class="materialboxed responsive-img" src="images/scrumy2.png" width="170" height="84" data-caption="Sprint Demo Agenda PDF Maker: Selecting a Sprint # (Rally WSAPI)" style="float: right; border: 1px solid black" alt="Sprint Demo Agenda PDF Maker: Selecting a Sprint # (Rally WSAPI)">
+                </div>
+                <div class="col s6">
+                  <img class="materialboxed responsive-img" src="images/scrumy3.png" width="170" height="84" data-caption="Sprint Demo Agenda Example" style="border: 1px solid black" alt="Sprint Demo Agenda Example">
+                </div>
+              </div>
+
+              <div class="row scrumy_imgs">
+                <div class="col s6">
+                  <img class="materialboxed responsive-img" src="images/scrumy4.png" width="170" height="84" data-caption="Team Backlog Example" style="float: right; border: 1px solid black" alt="Team Backlog Example">
+                </div>
+                <div class="col s6">
+                  <img class="materialboxed responsive-img" src="images/scrumy5.png" width="170" height="84" data-caption="Adding user stories from one product backlog to the Team Backlog (Rally WSAPI)" style="border: 1px solid black" alt="Adding user stories from one product backlog to the Team Backlog">
+                </div>
+              </div>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/kateugenio/sprint_demo_handout" target="_blank">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12">
+          <div class="card blue-grey darken-1">
+            <div class="card-image">
+              <img src="images/minimeanstore.png" alt="MiniMeanStore Screenshot">
+              <span class="card-title">MiniMeanStore</span>
+            </div>
+            <div class="card-content white-text">
+              <p>MEAN application (MongoDB, Express, Angular, Node.js) application to add products, customers, and orders. Full CRUD operations using MongoDB/Mongoose.js and RESTful routing.</p>
+              <h6>Built With:</h6>
+              <div class="chip">MongoDB</div>
+              <div class="chip">ExpressJS</div>
+              <div class="chip">AngularJS</div>
+              <div class="chip">Node.js</div>
+              <div class="chip">Bootstrap</div>
+              <div class="chip">jQuery</div>
+              <div class="chip">Mongoose.js</div>
+              <div class="chip">AJAX</div>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/kateugenio/Mini-mean-store" target="_blank">Github</a>
+              <a href="https://minimeanstore.herokuapp.com" target="_blank">App</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/pexels-photo-38892.jpeg" class="responsive-img" alt="parallax image 5"></div>
+  </div>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row text_center">
+        <div class="col l12 m12 s12">
+          <a href="https://github.com/kateugenio" target="_blank"><img src="images/GitHub-Mark-64px.png" class="footer_img" alt="GitHub Logo"></a>
+          <a href="https://www.linkedin.com/in/katherineeugenio/" target="_blank"><img src="images/In-Black-66px-R.png" class="footer_img" alt="LinkedIn Logo"></a>
+          <a href="mailto:kateugenio425@gmail.com"><img src="images/logo_gmail_64px.png" class="footer_img" alt="Gmail Logo"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Katherine Eugenio
+      </div>
+    </div>
+  </footer>
+
+
+
+   <script>
     $(document).ready(function(){
-      $(".aboutToggle").click(function(){
-        $(".aboutToggle").toggle();
-      });
-      $(".toolboxToggle").click(function(){
-        $(".toolboxToggle").toggle();
-      });
-      $(".connectToggle").click(function(){
-        $(".connectToggle").toggle();
-      });
-      $(".portfolioToggle").click(function(){
-        $(".portfolioToggle").toggle();
-      });
-    })
+      $('.parallax').parallax();
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+      $(".button-collapse").sideNav();
+      $('.scrollspy').scrollSpy();
+    });
   </script>
+
+
 </body>
 </html>
