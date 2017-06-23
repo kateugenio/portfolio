@@ -15,10 +15,6 @@
     "tests"
   ],
   "dependencies": {
-<<<<<<< HEAD
-    "bootstrap": "^3.3.7",
-=======
     "bootstrap": "^3.3.7"
->>>>>>> parent of 2eb7f43... updates dependencies
   }
 }
